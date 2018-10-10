@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Fira Sans', Avenir, sans-serif;
+}
+
+h1 {
+  padding: 10px 20px 20px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.component {
+  width: 90%;
+  margin: 10px auto;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.notes {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.note {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.timestamp {
+  display: block;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+label {
+  width: 15%;
+  margin-right: 3%;
+}
+
+input {
+  width: 65%;
+  margin-right: 3%;
+  padding: 4px;
+  font-size: 1em;
+}
+
+button {
+  width: 14%;
+  padding: 4px;
+  font-size: 1em;
+  color: white;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+button:disabled {
+  color: whitesmoke;
+  background-color: lightgreen;
+}

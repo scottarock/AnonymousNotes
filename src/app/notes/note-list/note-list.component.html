@@ -1,0 +1,9 @@
+<app-note-new (newNote)="noteAdded($event)"></app-note-new>
+<div class="component notes">
+  <div class="note" *ngFor="let note of notes">
+    <span class="timestamp">
+      Noted on: {{ note.createdAt | date: 'MMM d, y, h:mm:ss a' }}
+    </span>
+    {{ note.note }}
+  </div>
+</div>
