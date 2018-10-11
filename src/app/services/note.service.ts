@@ -10,7 +10,9 @@ import { Note } from '../models';
 export class NoteService {
 
   // mock api base
-  private readonly base = 'http://5bbd8aa08be32700139e3444.mockapi.io/notes';
+  // private readonly base = 'http://5bbd8aa08be32700139e3444.mockapi.io/notes';
+  // mongodb api base
+  private readonly base = '/api/notes';
 
   constructor(private http: HttpClient) { }
 
